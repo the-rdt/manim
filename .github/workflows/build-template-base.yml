@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: us-west1-docker.pkg.dev/proximal-core-0/environments
-  IMAGE_NAME: revideo-template-base
+  IMAGE_NAME: manim-template-base
   # Enable Dagger Cloud integration
   _EXPERIMENTAL_DAGGER_CLOUD_TOKEN: ${{ secrets.DAGGER_CLOUD_TOKEN }}
 
